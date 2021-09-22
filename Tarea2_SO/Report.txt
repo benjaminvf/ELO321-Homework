@@ -1,0 +1,15 @@
+Benjamin Villegas  201721007-9 benjamin.villegas@sansano.usm.cl 
+Patricio Carrasco  201721064-8 patricio.carrascoo@sansano.usm.cl 
+
+Parte D:
+
+Los tiempos de ejecucion son los siguientes: 
+
+-A2 : 0,000008[s]
+-B2 : 0,000008[s]
+-C2 : 0,000141[s]
+
+Solo se observan diferencias de tiempo para el punto C2 esto es porque 
+se necesita un tiempo mayor para crear e inicializar los threads en comparacion 
+a hacerlo de manera secuencial. open mp (B2) demora el mismo tiempo que A2 ya que 
+no necesita  crear threads para hacerlo de manera paralela.    
